@@ -7,7 +7,6 @@ qemu-x86_64 and  qemu-system-x86_64
 
 ## Installation Debian
 ```
-sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer 
 sudo apt-get install qemu-system 
 sudo apt-get install qemu-user 
