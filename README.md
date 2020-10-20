@@ -14,7 +14,8 @@ sudo apt-get install qemu-user
 
 ## Create virtual machine
 ```
-qemu-system-x86_64 -hda linux.img -boot d -cdrom
+//qemu-system-x86_64 -hda linux.img -boot d -cdrom
+qemu-img create -f qcow2 ~/QEMU/ubuntu-desktop-18.04.qcow2 10G
 ```
 
 ## Boot VM
